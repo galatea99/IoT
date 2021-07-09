@@ -1,6 +1,8 @@
 # IoT
 ## IoT Access Control System
 
+An extremely developer friendly platform for remote access system.
+
 API: http://web.pi1.co/api/door/{userID}/{Appkey}/{TimeDelay}/{DoorID}/{Action}  
 or   https://web.pi1.co/api/door/{userID}/{Appkey}/{TimeDelay}/{DoorID}/{Action}
 
@@ -20,7 +22,7 @@ https://web.pi1.co/api/door/{userID}/{Appkey}/3/4/1
 To close Room 3, delay will be ignored(No waiting time for close)<br/>
 https://web.pi1.co/api/door/{userID}/{Appkey}/3/4/0
 
-Any out of range parameter will result in an error
+Any out of range parameter will result in an error.
 
 
 
