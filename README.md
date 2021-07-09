@@ -7,8 +7,8 @@ API: http://web.pi1.co/api/door/{userID}/{Appkey}/{TimeDelay}/{DoorID}/{Action}
 or   https://web.pi1.co/api/door/{userID}/{Appkey}/{TimeDelay}/{DoorID}/{Action}
 
 TimeDelay: [1-10] (int) in seconds<br/>
-DoorID: 1-6 (int)  1= Main Door, 2 = Room1, … 6= Room5
-Action: 0,1 (int)    0:close, 1:open
+DoorID: 1-6 (int)  1= Main Door, 2 = Room1, … 6= Room5<br/>
+Action: 0,1 (int)    0:close, 1:open<br/>
 
 A waiting period of **3** seconds is recommended.
 
